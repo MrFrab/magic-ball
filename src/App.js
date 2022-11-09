@@ -1,9 +1,6 @@
 import React from 'react';
 import './style.css';
 
-
-
-
   class MagicEightBall extends React.Component {
     constructor(props) {
       super(props);
@@ -51,7 +48,7 @@ import './style.css';
         "Outlook not so good",
         "Very doubtful",
       ];
-      const answer = possibleAnswers[this.state.randomIndex]; // Change this line
+      const answer = possibleAnswers[this.state.randomIndex]; 
       
       return (
         <div className='container'>
@@ -67,9 +64,7 @@ import './style.css';
           <br />
           <h3>Answer:</h3>
           <p>
-            {/* Change code below this line */}
-            {answer}
-            {/* Change code above this line */}
+            {answer} 
           </p>
         </div>
       );
